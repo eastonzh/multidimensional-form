@@ -5,7 +5,8 @@ const userRouter = new Router({ prefix: '/user' });
 userRouter.post('/login', (ctx) => {
   ctx.response.body = {
     status: 200,
-    token: 'token'
+    token: 'token',
+    ...ctx.request.body as object
   };
 });
 
