@@ -1,12 +1,7 @@
-import { Input, Button } from '@douyinfe/semi-ui';
+import IndexLayout from 'layout/index-layout';
 
-const Home = () => {
-  return (
-    <div>
-      <Input />
-      <Button>主要按钮</Button>
-    </div>
-  );
-};
+const Home = () => (
+  <IndexLayout>ddd</IndexLayout>
+);
 
 export default Home;

@@ -1408,6 +1408,13 @@
   dependencies:
     classnames "^2.2.6"
 
+"@douyinfe/semi-icons@^2.37.0":
+  version "2.37.0"
+  resolved "https://registry.yarnpkg.com/@douyinfe/semi-icons/-/semi-icons-2.37.0.tgz#cc8a41b31b7dca4c7a651718dbf4f7fbb5e8499c"
+  integrity sha512-hfZmwE1/igvOx9rUdM8yKrF25yhap3QUC2w5ElkB3MfK6B6O64NWofTb/bezh9qFxpXbfbvzZnYE3vbMlebudQ==
+  dependencies:
+    classnames "^2.2.6"
+
 "@douyinfe/semi-illustrations@2.35.0":
   version "2.35.0"
   resolved "https://registry.yarnpkg.com/@douyinfe/semi-illustrations/-/semi-illustrations-2.35.0.tgz#dac63ac1d9bcc3d222a5799285be911bb30ab786"
