@@ -1,6 +1,7 @@
 import { Nav, Button, Input, Tooltip } from '@douyinfe/semi-ui';
 
-import { LeftArrow, UnStar, Folder } from '../../../assets/svgs';
+import { LeftArrow, UnStar, Folder, Lock, BitableAuthorization, Robot, Bell, More } from 'assets/svgs';
+
 import HeaderStyles from './styles';
 
 const Header = () => {
@@ -25,10 +26,22 @@ const Header = () => {
             </div>
           </div>
         </Nav.Header>
-        <Nav.Footer>
-          <Button theme="solid" type="primary" style={{ marginRight: 8 }}>深色主要</Button>
-          <Button theme="solid" type="primary" style={{ marginRight: 8 }}>深色主要</Button>
-          <Button theme="solid" type="primary" style={{ marginRight: 8 }}>深色主要</Button>
+        <Nav.Footer className="header-nav-footer">
+          <div className="actions">
+            <Tooltip content="分享设置：链接分享未开启">
+              <Button icon={<Lock />} theme="solid" className="share-button">分享</Button>
+            </Tooltip>
+            <Tooltip content="多维表格高级权限">
+              <Button icon={<BitableAuthorization />} className="outline-button">高级权限</Button>
+            </Tooltip>
+            <Tooltip content="自动运行设定的流程">
+              <Button icon={<Robot />} className="outline-button">自动化</Button>
+            </Tooltip>
+            <Tooltip content="当前文档通知">
+              <Button icon={<Bell />} aria-label="当前文档通知" />
+            </Tooltip>
+            <Button icon={<More />} aria-label="更多" />
+          </div>
         </Nav.Footer>
       </Nav>
     </HeaderStyles>

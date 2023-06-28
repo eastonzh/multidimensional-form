@@ -124,6 +124,43 @@ const HeaderStyles = styled.div`
         }
       }
     }
+
+    .header-nav-footer {
+      .actions {
+        button {
+          border-radius: 6px;
+        }
+
+        .semi-button {
+          .semi-button-content {
+            font-weight: 400 !important;
+          }
+        }
+
+        .share-button {
+          svg {
+            width: 16px;
+            height: 16px;
+          }
+        }
+
+        .outline-button {
+          color: #000;
+          border: 1px #d0d3d6 solid;
+          background-color: #fff;
+          margin-left: 10px;
+
+          :hover {
+            background-color: #f2f3f5;
+          }
+
+          svg {
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+    }
   }
 `;
 
