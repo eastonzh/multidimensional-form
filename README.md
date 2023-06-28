@@ -1,5 +1,5 @@
-## feishu-multidimensional-form | 飞书多维表格
+## multidimensional-form | 多维表格
 
 ### frontend
 
-[`feishu-multidimensional-form-frontend`](./frontend/README.md)
+[`multidimensional-form-frontend`](./frontend/README.md)

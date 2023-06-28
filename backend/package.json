@@ -1,5 +1,5 @@
 {
-  "name": "feishu-multidimensional-form-backend",
+  "name": "multidimensional-form-backend",
   "version": "0.0.1",
   "scripts": {
     "start": "nodemon --watch src --exec ts-node ./src/index.ts"
